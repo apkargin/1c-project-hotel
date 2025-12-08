@@ -38,4 +38,17 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.БронированиеНомеров</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Кассир</roles>
+  <roles>Role.ОбслуживающийПерсонал</roles>
+  <roles>Role.Портье</roles>
+  <roles>Role.Управляющий</roles>
+  <catalogs>Catalog.НомернойФонд</catalogs>
+  <catalogs>Catalog.ПомещениеОтеля</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <enums>Enum.ТипНомера</enums>
+  <informationRegisters>InformationRegister.РасписаниеДоступностиПомещений</informationRegisters>
+  <informationRegisters>InformationRegister.СтоимостьНомеров</informationRegisters>
 </mdclass:Configuration>

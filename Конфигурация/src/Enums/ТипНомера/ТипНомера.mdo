@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48aafdc9-58e8-4b69-b157-17b5b195416d">
+  <producedTypes>
+    <refType typeId="75fccccf-2d2b-44c7-9ec4-96e2f98a143c" valueTypeId="420dab46-5317-4f6f-aac1-e5deffe4b6a5"/>
+    <listType typeId="f483603c-2871-4579-925e-5f1fb5402775" valueTypeId="4199d3b8-b53c-46df-ba18-562ef2c376ff"/>
+    <managerType typeId="320c6782-3542-4650-aaef-e6e6bfc9792e" valueTypeId="0de33d6e-0c7c-48ca-9dc6-39f7852505f9"/>
+  </producedTypes>
+  <name>ТипНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип номера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b611bb5-2618-4df3-863a-a6aecf8399f5">
+    <name>Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b61aeed-4a16-4eac-b39c-80e164d52724">
+    <name>Люкс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Люкс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="458f14ef-844d-475b-a743-6042cbfe1b8b">
+    <name>Семейный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семейный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

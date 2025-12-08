@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aabcd49e-14cd-42dc-bb88-f45a0d8f0f24">
+  <name>Портье</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портье</value>
+  </synonym>
+</mdclass:Role>

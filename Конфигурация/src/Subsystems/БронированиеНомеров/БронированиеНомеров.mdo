@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b045bce2-6c47-4923-b7ca-776f759febf7">
+  <name>БронированиеНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование номеров</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.НомернойФонд</content>
+  <content>Catalog.ПомещениеОтеля</content>
+  <content>Catalog.Сотрудники</content>
+  <content>InformationRegister.СтоимостьНомеров</content>
+  <content>Catalog.Услуги</content>
+  <content>Role.Администратор</content>
+  <content>InformationRegister.РасписаниеДоступностиПомещений</content>
+</mdclass:Subsystem>

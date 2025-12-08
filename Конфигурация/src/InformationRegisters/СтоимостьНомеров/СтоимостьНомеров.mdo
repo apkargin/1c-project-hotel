@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b3d0a22-4485-4032-81b6-421851aacd9b">
+  <producedTypes>
+    <selectionType typeId="faab1082-e321-4c99-8b26-33a7e0450beb" valueTypeId="f7acad20-450f-4f8e-b399-4ea420e103ed"/>
+    <listType typeId="ad56c637-53a7-4031-a901-47daf5c01dc1" valueTypeId="a23f57a9-ff12-4cc8-becd-9bc6fd7969d4"/>
+    <managerType typeId="9dbd3aa9-83a4-4ef2-a800-bd0baf32a64d" valueTypeId="ad587d06-9af3-4300-9d7c-9c9ea41df25f"/>
+    <recordSetType typeId="6fb63af0-2bdf-4b1e-a3ba-7e2f8bcda52d" valueTypeId="43c37251-fd86-4aa5-b76c-150e4039a2ee"/>
+    <recordKeyType typeId="b2e8acfe-463d-41af-ac11-9f4b6bf2423f" valueTypeId="3e58adbf-ed63-476d-9e11-ea02e58de56b"/>
+    <recordType typeId="0de8c399-5c2c-4858-b1be-bbaa15ab71aa" valueTypeId="e54fd095-565a-4872-b968-855683f82da3"/>
+    <recordManagerType typeId="87afd4a6-d6c7-4d53-b3d6-f476b2843601" valueTypeId="4314f5d7-82a2-46c8-8c06-a46864bf89ed"/>
+  </producedTypes>
+  <name>СтоимостьНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость номеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2abecfc5-d0db-471f-94aa-1bd40843e3f7">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="90b90caf-4de8-405c-9b49-44eaa8e87c37">
+    <name>ТипНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="809a2ecf-0e4a-45b5-8287-6fc52e4e2d65">
+    <name>МаксимальноеКоличествоГостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество гостей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

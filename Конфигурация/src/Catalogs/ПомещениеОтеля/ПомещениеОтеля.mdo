@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7ebed88-c2a1-4a87-9e22-3e9ed16e24ac">
+  <producedTypes>
+    <objectType typeId="c7ede068-6ed5-4199-ab94-fc3705b5a6d9" valueTypeId="d5357e30-2f5d-447d-9b9f-a9cdd9784411"/>
+    <refType typeId="bb4a7c75-0e6e-449c-9a1f-04cb2b2b89fe" valueTypeId="c87e47a8-bac3-4be3-af49-51921f7c8d87"/>
+    <selectionType typeId="fd18bd0f-ac2a-4d00-bec8-25507b8474cd" valueTypeId="3766b5fc-357c-479b-aed3-c115c28dfeec"/>
+    <listType typeId="f552cb0d-e293-4d47-85de-d5c7f98cb521" valueTypeId="c8ef03bd-c529-4dd1-96b9-a244100560bf"/>
+    <managerType typeId="8503fbe2-17bf-4b45-a5e0-5b4a03ae2f48" valueTypeId="b98e0e1c-93f7-426a-8192-f5c19a43ef2e"/>
+  </producedTypes>
+  <name>ПомещениеОтеля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помещение отеля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПомещениеОтеля.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПомещениеОтеля.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="12e169cb-cb60-4bc9-9877-644fb7ac83cb">
+    <name>Вместимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вместимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
