@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42bd3225-b5e3-43b0-a7c8-f8aa05d868f7">
+  <producedTypes>
+    <objectType typeId="c98464f8-ad5a-4141-9be6-a2b5836bb350" valueTypeId="3f6ccdc2-011f-4c6c-8a23-b7dbe57926a4"/>
+    <managerType typeId="7bf0c91d-0fb3-4f36-bac6-4eca905f5ad9" valueTypeId="0d26a71f-9d99-4628-a846-ec0c5fff5d18"/>
+  </producedTypes>
+  <name>ОтчетПоЗабронированнымНомерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по забронированным номерам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="2dce3009-66e7-46bc-91d0-3cb11060fc3b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

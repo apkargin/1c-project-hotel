@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НомернойФонд.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="c1b4147f-56a4-4c1d-b2a9-7b3cf2b2a35a">
     <name>Номер</name>
     <synonym>
@@ -136,4 +137,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="c626c788-5b11-4401-a1f1-c6bac38fb4ad">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
