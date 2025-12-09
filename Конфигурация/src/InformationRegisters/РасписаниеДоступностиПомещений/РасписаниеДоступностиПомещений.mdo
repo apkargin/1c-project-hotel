@@ -16,15 +16,37 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="5087e68f-011f-4444-9cd2-e4c8aecb3b23">
-    <name>Занято</name>
+  <resources uuid="1de99aa3-2620-4972-bb28-9cf6d865ec95">
+    <name>ВремяНачалаРаботы</name>
     <synonym>
       <key>ru</key>
-      <value>Занято</value>
+      <value>Время начала работы</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2504452a-da47-4861-a978-0d8fbad75921">
+    <name>ВремяОкончанияРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -43,9 +65,12 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="8b6ae956-2963-4f9f-b85b-683cd266f216">
@@ -62,44 +87,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="b0341b86-6f57-4b57-80b9-2681330cc7ea">
-    <name>ВремяНачалаРаботы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Время начала работы</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="dac8010d-452b-4a88-8922-863d00f71bcd">
-    <name>ВремяОкончанияРаботы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Время окончания работы</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Time</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>

@@ -55,10 +55,7 @@
       <value>Единица измерения</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -93,6 +90,8 @@
         <length>255</length>
       </stringQualifiers>
     </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
