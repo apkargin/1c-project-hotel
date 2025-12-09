@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="432022e5-1e8a-45b7-8471-96cd5de226dc">
+  <producedTypes>
+    <refType typeId="9247147f-f075-4b33-ad9c-604600ce5f31" valueTypeId="24aa710e-6bac-4f7c-b4fa-72fb5c6b7979"/>
+    <listType typeId="085dc467-a282-44a2-9d88-fb504ee959d5" valueTypeId="72d110a0-ddfb-4099-8cff-74b869aa67a0"/>
+    <managerType typeId="8696b043-9831-4634-b0be-0ebabd5cb532" valueTypeId="d6bb60d3-c42d-4ca2-8302-ece7f3ad994b"/>
+  </producedTypes>
+  <name>СтатусБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус бронирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3210bd84-d5b1-440f-8e3b-faeec2894ae6">
+    <name>ОжидаетОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4725254f-135c-45f7-9eac-46259402c352">
+    <name>Оплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7723c1a8-7a1a-4973-9741-9f56e5d53f49">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

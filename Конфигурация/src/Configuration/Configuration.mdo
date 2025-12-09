@@ -44,11 +44,18 @@
   <roles>Role.ОбслуживающийПерсонал</roles>
   <roles>Role.Портье</roles>
   <roles>Role.Управляющий</roles>
+  <commonModules>CommonModule.ОбщиеОбработки</commonModules>
+  <scheduledJobs>ScheduledJob.АвтоматическоеСнятиеБрони</scheduledJobs>
+  <catalogs>Catalog.Гости</catalogs>
   <catalogs>Catalog.НомернойФонд</catalogs>
   <catalogs>Catalog.ПомещениеОтеля</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.БронированиеНомера</documents>
+  <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.ТипНомера</enums>
+  <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
   <informationRegisters>InformationRegister.РасписаниеДоступностиПомещений</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьНомеров</informationRegisters>
+  <informationRegisters>InformationRegister.СтоимостьУслуг</informationRegisters>
 </mdclass:Configuration>

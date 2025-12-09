@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="114115fd-1e1f-4fb9-bc97-7f72f5051062">
+  <producedTypes>
+    <selectionType typeId="d8e5253f-60b2-4879-a09e-3c1eb3d8b1de" valueTypeId="fd2e2c34-124e-4e19-a83a-462f446920bf"/>
+    <listType typeId="f91bd867-ccc4-46bf-b87a-437a37c42e03" valueTypeId="229acce3-905a-4444-ade1-a3cfcf17c7e9"/>
+    <managerType typeId="bf0fc5c9-f622-41b3-b938-fbcb41790ece" valueTypeId="50297324-1c65-4e30-8914-744c2bcf938f"/>
+    <recordSetType typeId="dce654c2-3f65-4c88-81a4-80d130b54bf3" valueTypeId="9c94ca70-8bff-4494-8eee-5502e1be6863"/>
+    <recordKeyType typeId="e4b999c9-f442-460c-9f7f-23823bf9003f" valueTypeId="5dce8b25-041f-4530-be2e-664777213353"/>
+    <recordType typeId="64146c33-dfda-4675-a59a-d3215db07814" valueTypeId="4e18a907-776e-405b-8bef-e5619da28c77"/>
+    <recordManagerType typeId="ab17377f-efdb-4936-8f1d-ee8855fc3e94" valueTypeId="8cdc91a9-1847-4ea8-b92d-2ade97d27b95"/>
+  </producedTypes>
+  <name>СтоимостьУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05c12651-1798-40fe-b4d3-d68ebf57f29b">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8155effb-f20f-49e0-8d8c-a40907cb5d02">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e2877d9d-acac-4ffa-9340-3edaf686b6ef">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

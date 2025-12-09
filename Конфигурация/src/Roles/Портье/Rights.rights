@@ -4,6 +4,59 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.СтоимостьУслуг.Resource.Стоимость</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг</name>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг.StandardAttribute.Period</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг.Attribute.Сотрудник</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.Конфигурация</name>
 		<right>
 			<name>Administration</name>
@@ -71,6 +124,13 @@
 		</right>
 		<right>
 			<name>Output</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтоимостьУслуг.Dimension.Услуга</name>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
