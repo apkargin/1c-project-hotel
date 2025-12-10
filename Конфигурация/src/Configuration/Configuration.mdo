@@ -57,6 +57,7 @@
   <documents>Document.БронированиеНомера</documents>
   <documents>Document.ОплатаПроживания</documents>
   <documents>Document.ОтменаБрони</documents>
+  <documents>Document.УслугиОтеля</documents>
   <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.ТипНомера</enums>
