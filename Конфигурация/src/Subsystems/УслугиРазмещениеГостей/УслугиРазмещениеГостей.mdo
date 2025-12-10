@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcddf32a-6c51-4ca7-9d8c-23c130b3cc5f">
+  <name>УслугиРазмещениеГостей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги и размещение гостей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ОтчетПоЗабронированнымНомерам</content>
+</mdclass:Subsystem>

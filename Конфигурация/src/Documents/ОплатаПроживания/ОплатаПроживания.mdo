@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc418cd5-ec62-4bb5-8a12-4f1860af7ace">
+  <producedTypes>
+    <objectType typeId="3ed991bd-c89f-4681-8ce8-93e3faed9ba8" valueTypeId="f433f6e5-816d-4ff2-a447-39cf6a779bd4"/>
+    <refType typeId="47b40937-d0ac-4d15-8e9b-e3b43eba7c6b" valueTypeId="f044a810-4400-4660-ad07-bdb2e71536a2"/>
+    <selectionType typeId="f09991cd-fd6b-4f55-ada0-b1b12a1bb24d" valueTypeId="31e72999-05b8-493f-95b5-9b9cb0915087"/>
+    <listType typeId="a2751025-639e-40fa-b8bd-3e3a5d1f24ec" valueTypeId="579d2397-81a3-4137-961a-477338eb9d5c"/>
+    <managerType typeId="d1532f53-ec04-4226-8269-8c62ae02450e" valueTypeId="b8e76f81-dc49-47b0-956b-0c0f6b85a1b9"/>
+  </producedTypes>
+  <name>ОплатаПроживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата проживания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОплатаПроживания.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

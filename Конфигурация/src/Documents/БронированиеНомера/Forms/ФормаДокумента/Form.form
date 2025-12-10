@@ -281,6 +281,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -296,7 +297,11 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ДатаВыезда</name>
-      <id>19</id>
+      <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Дата выезда</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -307,11 +312,11 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ДатаВыездаПриИзменении</name>
+        <name>ДатаЗаездаПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ДатаВыездаРасширеннаяПодсказка</name>
-        <id>21</id>
+        <id>64</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -321,7 +326,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДатаВыездаКонтекстноеМеню</name>
-        <id>20</id>
+        <id>63</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
