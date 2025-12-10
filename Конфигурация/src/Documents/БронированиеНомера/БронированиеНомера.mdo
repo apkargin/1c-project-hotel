@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.БронированиеНомера.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.БронированиеНомеров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="e94e7aa1-a5d9-43c0-878b-75054770c0b7">

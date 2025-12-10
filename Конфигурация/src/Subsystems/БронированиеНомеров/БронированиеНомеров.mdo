@@ -16,4 +16,5 @@
   <content>InformationRegister.РасписаниеДоступностиПомещений</content>
   <content>InformationRegister.СтоимостьУслуг</content>
   <content>Document.БронированиеНомера</content>
+  <content>InformationRegister.БронированиеНомеров</content>
 </mdclass:Subsystem>
