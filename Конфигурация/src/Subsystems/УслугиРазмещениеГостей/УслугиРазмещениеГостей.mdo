@@ -9,4 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.ОтчетПоЗабронированнымНомерам</content>
   <content>Document.УслугиОтеля</content>
+  <content>Document.АрендаПомещений</content>
+  <content>InformationRegister.АрендаПомещений</content>
 </mdclass:Subsystem>
