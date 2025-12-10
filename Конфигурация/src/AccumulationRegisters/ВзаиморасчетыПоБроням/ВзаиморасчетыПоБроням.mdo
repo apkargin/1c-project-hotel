@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90caf808-98c4-4bd5-ba5a-8eb6211aca14">
+  <producedTypes>
+    <selectionType typeId="2ac509a5-0c67-40af-a6bf-d638fd505d27" valueTypeId="72d774e9-ff5d-4c79-a82c-fba03b184b17"/>
+    <listType typeId="ea0e9893-03a4-43c8-92fc-c9590c772209" valueTypeId="d96ba574-8093-42b1-a6ae-0f4e2dfc8e77"/>
+    <managerType typeId="bb9e9cc2-1258-40fb-b533-49a62214abfe" valueTypeId="35b7d88f-3516-4156-bfb7-ff2488846de4"/>
+    <recordSetType typeId="37ba7dbd-5a3e-48d3-9f68-92cd641dbbc4" valueTypeId="578ef059-a92d-4810-8444-9d1df76532e6"/>
+    <recordKeyType typeId="1073d824-6150-4185-825f-d1fcd5b9cc82" valueTypeId="72630dd9-98c9-48e9-81b3-e882a128bb92"/>
+    <recordType typeId="abb5a107-7743-4b3b-8ab4-94aea3349b1e" valueTypeId="e6f1a834-f15e-4eaf-8ff2-1a758f315dab"/>
+  </producedTypes>
+  <name>ВзаиморасчетыПоБроням</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты по броням</value>
+  </synonym>
+  <comment>Учет оплаты номеров</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="562b0d78-1a46-45e4-80f9-c5f78fb9160d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7634b28c-a3b1-443e-abac-fb795f4b942b">
+    <name>Бронь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронь</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БронированиеНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6ea69241-a670-4aef-8bcd-1dfd7b96885f">
+    <name>Гость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
