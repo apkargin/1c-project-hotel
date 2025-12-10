@@ -17,4 +17,5 @@
   <content>InformationRegister.СтоимостьУслуг</content>
   <content>Document.БронированиеНомера</content>
   <content>InformationRegister.БронированиеНомеров</content>
+  <content>Document.ОплатаПроживания</content>
 </mdclass:Subsystem>

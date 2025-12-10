@@ -39,6 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.БронированиеНомеров</subsystems>
+  <subsystems>Subsystem.УслугиРазмещениеГостей</subsystems>
   <roles>Role.Администратор</roles>
   <roles>Role.Кассир</roles>
   <roles>Role.ОбслуживающийПерсонал</roles>
@@ -53,6 +54,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.БронированиеНомера</documents>
+  <documents>Document.ОплатаПроживания</documents>
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.ТипНомера</enums>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
