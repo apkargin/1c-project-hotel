@@ -134,6 +134,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.КоличествоГостей</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>КоличествоГостейПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>КоличествоГостейРасширеннаяПодсказка</name>
         <id>12</id>
