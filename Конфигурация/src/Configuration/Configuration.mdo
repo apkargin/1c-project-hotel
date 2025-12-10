@@ -55,9 +55,12 @@
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.БронированиеНомера</documents>
   <documents>Document.ОплатаПроживания</documents>
-  <enums>Enum.СпособыОплаты</enums>
   <documents>Document.ОтменаБрони</documents>
+  <documents>Document.РазмещениеГостей</documents>
+  <enums>Enum.ВидДокумента</enums>
+  <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.СтатусБронирования</enums>
+  <enums>Enum.СтатусыРазмещения</enums>
   <enums>Enum.ТипНомера</enums>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
   <informationRegisters>InformationRegister.БронированиеНомеров</informationRegisters>

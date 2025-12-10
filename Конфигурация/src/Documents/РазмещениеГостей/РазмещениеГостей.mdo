@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9682880a-5333-4e59-b9e1-f22f898cbf9f">
+  <producedTypes>
+    <objectType typeId="ff646e13-7872-498c-8b4e-765d9e28a684" valueTypeId="f3c36cfe-2a54-48fd-bff1-50a4ff80f1fc"/>
+    <refType typeId="94b13f8c-e70e-4dc8-abbe-e1001a17691f" valueTypeId="358ec329-e722-47cf-a521-725ca439a546"/>
+    <selectionType typeId="d11d5925-e662-493d-8fad-953b2fec4390" valueTypeId="e156f549-a1d7-4285-aaf6-a70b21b38214"/>
+    <listType typeId="659fc556-72d4-443f-af6b-036747d5efe9" valueTypeId="996e12f2-fadf-4ab6-81ed-be2c45c4ef8c"/>
+    <managerType typeId="a4f3763e-6414-494d-9003-d1f6c7aef15e" valueTypeId="a99d0251-3ad2-48a6-89a7-54992e529e16"/>
+  </producedTypes>
+  <name>РазмещениеГостей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение гостей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РазмещениеГостей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РазмещениеГостей.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0a8a1d81-e4c2-4c22-8c77-a4dc15c4c2e8">
+    <name>Бронь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронь</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БронированиеНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da36492e-ff90-49bc-af8d-85bb95033985">
+    <name>ДатаЗаезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="683677d7-7f86-41b6-ad17-b21e4446fd82">
+    <name>ДатаВыезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="329acb99-96aa-4ce5-9faf-c3c07339435e">
+    <name>ДатаВыездаФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выезда факт</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b740e72f-805e-41fc-822b-be6bbe6a94e9">
+    <name>ОсновнойГость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9d21f04-7df4-44b9-ba23-418f3b8032f1">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d31b0347-5455-41a6-a8ab-a379ca9f73eb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9f57820f-eda6-4695-9463-de0300fa7474">
+    <producedTypes>
+      <objectType typeId="715b9828-53bc-43d8-bc63-43e66d0140e8" valueTypeId="7e7ddc14-49b4-4a56-87fc-a818db057c2f"/>
+      <rowType typeId="ad05f821-1682-4991-9389-175a5fa46217" valueTypeId="e25a2dec-39fa-4ae4-86b6-a975718d5f4b"/>
+    </producedTypes>
+    <name>СписокГостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список гостей</value>
+    </synonym>
+    <attributes uuid="d0fc8b71-6463-44e5-9c2e-294c9d524a90">
+      <name>Гость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гость</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Гости</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09264c9c-1909-4a99-9f1e-aa0dea935e05">
+      <name>ВидДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид документа</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидДокумента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab7b881a-83c8-482e-aa95-622993e08ce1">
+      <name>СерияНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a0ac2382-b05e-4e29-9b85-12f77ca83a9e">
+      <name>ДатаВыдачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата выдачи</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8dfe3c67-6444-4c2a-b937-eabc27f5d8fc">
+      <name>КемВыдан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кем выдан</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

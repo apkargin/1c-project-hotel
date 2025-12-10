@@ -8,4 +8,9 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.ОтчетПоЗабронированнымНомерам</content>
+  <content>Document.РазмещениеГостей</content>
+  <content>Document.ОплатаПроживания</content>
+  <content>AccumulationRegister.ВзаиморасчетыПоБроням</content>
+  <content>Enum.СпособыОплаты</content>
+  <content>Enum.ВидДокумента</content>
 </mdclass:Subsystem>
