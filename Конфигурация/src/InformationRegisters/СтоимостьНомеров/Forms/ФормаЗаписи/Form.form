@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Наименование</name>
-    <id>13</id>
+    <name>Период</name>
+    <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
+      <segments>Запись.Period</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НаименованиеРасширеннаяПодсказка</name>
-      <id>15</id>
+      <name>ПериодРасширеннаяПодсказка</name>
+      <id>3</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -22,8 +22,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>НаименованиеКонтекстноеМеню</name>
-      <id>14</id>
+      <name>ПериодКонтекстноеМеню</name>
+      <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -41,23 +41,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Имя</name>
-    <id>1</id>
+    <name>ТипНомера</name>
+    <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Имя</segments>
+      <segments>Запись.ТипНомера</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>ИмяПриИзменении</name>
-    </handlers>
     <extendedTooltip>
-      <name>ИмяРасширеннаяПодсказка</name>
-      <id>3</id>
+      <name>ТипНомераРасширеннаяПодсказка</name>
+      <id>6</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -66,12 +62,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ИмяКонтекстноеМеню</name>
-      <id>2</id>
+      <name>ТипНомераКонтекстноеМеню</name>
+      <id>5</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -85,7 +81,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Отчество</name>
+    <name>МаксимальноеКоличествоГостей</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -93,14 +89,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Отчество</segments>
+      <segments>Запись.МаксимальноеКоличествоГостей</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>ОтчествоПриИзменении</name>
-    </handlers>
     <extendedTooltip>
-      <name>ОтчествоРасширеннаяПодсказка</name>
+      <name>МаксимальноеКоличествоГостейРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -110,12 +102,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ОтчествоКонтекстноеМеню</name>
+      <name>МаксимальноеКоличествоГостейКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -129,7 +121,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Телефон</name>
+    <name>Стоимость</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -137,10 +129,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Телефон</segments>
+      <segments>Запись.Стоимость</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТелефонРасширеннаяПодсказка</name>
+      <name>СтоимостьРасширеннаяПодсказка</name>
       <id>12</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -150,12 +142,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ТелефонКонтекстноеМеню</name>
+      <name>СтоимостьКонтекстноеМеню</name>
       <id>11</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -185,10 +177,10 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>Объект</name>
+    <name>Запись</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Гости</types>
+      <types>InformationRegisterRecordManager.СтоимостьНомеров</types>
     </valueType>
     <view>
       <common>true</common>
@@ -203,7 +195,7 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo">
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
     <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>

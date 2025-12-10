@@ -47,6 +47,7 @@
   <commonModules>CommonModule.ОбщиеОбработки</commonModules>
   <scheduledJobs>ScheduledJob.АвтоматическоеСнятиеБрони</scheduledJobs>
   <catalogs>Catalog.Гости</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.НомернойФонд</catalogs>
   <catalogs>Catalog.ПомещениеОтеля</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>

@@ -51,10 +51,12 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>4</precision>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -89,7 +91,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>4</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -220,7 +222,9 @@
           <precision>10</precision>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:UndefinedValue"/>
+      <minValue xsi:type="core:StringValue">
+        <value>1</value>
+      </minValue>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
