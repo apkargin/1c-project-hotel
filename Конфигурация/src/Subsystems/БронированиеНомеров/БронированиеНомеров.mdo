@@ -18,4 +18,6 @@
   <content>Document.БронированиеНомера</content>
   <content>InformationRegister.БронированиеНомеров</content>
   <content>Document.ОплатаПроживания</content>
+  <content>Document.ОтменаБрони</content>
+  <content>Report.ОтчетПоЗабронированнымНомерам</content>
 </mdclass:Subsystem>
