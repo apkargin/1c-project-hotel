@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e57ca3d-e987-4c68-a51b-d4d98870e0ea">
+  <producedTypes>
+    <refType typeId="9b3ab625-23e2-4331-9207-d1ebbd9bb1f3" valueTypeId="ff2992d5-6de5-4b0d-beb8-00df86d5264a"/>
+    <listType typeId="f119ba93-3972-4fe7-b568-e9e39de8b50f" valueTypeId="70c8dc7a-6e81-4ad6-8540-7e2899ee0dea"/>
+    <managerType typeId="23efa31f-ff9d-4805-9884-6a316407e148" valueTypeId="9305d8a8-5cda-4b12-9019-9c1189a225ae"/>
+  </producedTypes>
+  <name>ВидДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид документа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="99aa30c6-6583-4525-8330-6459f35b922a">
+    <name>ПаспортРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2bfb9db-ae74-4ba0-8685-fc28ffbce065">
+    <name>Загранпаспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загранпаспорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

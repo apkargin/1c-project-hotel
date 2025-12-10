@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f65fd272-b6da-4829-aebd-1252ee31c5ca">
+  <producedTypes>
+    <refType typeId="18c35f48-d2b3-4626-a0b1-b860d5f70bab" valueTypeId="2fc1f64c-94c7-4af9-8eaa-b1c81160a154"/>
+    <listType typeId="e0432e5c-2d54-4ea4-b410-a6a1635274d6" valueTypeId="80adad33-7ea9-4783-8745-f09df6101c32"/>
+    <managerType typeId="f1e38d33-a90a-4ef8-8ce7-49c3b8664568" valueTypeId="52922895-746b-4c4e-aede-f082d0de5ba9"/>
+  </producedTypes>
+  <name>СтатусыРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы размещения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b30845ed-7aa7-42b8-8f00-ef5894b7b52d">
+    <name>Проживают</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проживают</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa204ed5-c2b0-4353-ab55-fd00f89225a1">
+    <name>Выселены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выселены</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
