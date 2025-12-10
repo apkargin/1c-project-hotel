@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419138e9-8010-4bdc-86d5-351e406ce9ab">
+  <producedTypes>
+    <objectType typeId="9820c040-9512-4e3a-9ed3-d88f6b25d0cb" valueTypeId="ef9a83e4-2215-4286-838e-9346830b7d0c"/>
+    <refType typeId="3604f750-2a35-476a-9277-78f9f1afd13c" valueTypeId="0b11a418-737d-44c4-8d55-31967df7aae9"/>
+    <selectionType typeId="34a63e63-82ac-4fad-b0c5-d4520b530b6e" valueTypeId="8f4e9cde-913a-422a-b5ee-7b7b21b896d6"/>
+    <listType typeId="5d1fc1ce-280b-4ae5-84ed-4526af139abf" valueTypeId="8e03bf18-b0a3-4c69-839b-66e9ba0f854b"/>
+    <managerType typeId="46a4802b-fdca-4803-b078-562c8f3645f3" valueTypeId="5fe5b13b-8a42-435d-a3d4-30ad0a89ea31"/>
+  </producedTypes>
+  <name>ОтменаБрони</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отмена брони</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтменаБрони.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.БронированиеНомеров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1267f9f8-7636-495d-bdab-d9976eeb6466">
+    <name>Бронь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронь</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БронированиеНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
