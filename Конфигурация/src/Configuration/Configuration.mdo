@@ -55,6 +55,7 @@
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.БронированиеНомера</documents>
   <documents>Document.ОплатаПроживания</documents>
+  <enums>Enum.СпособыОплаты</enums>
   <documents>Document.ОтменаБрони</documents>
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.ТипНомера</enums>
@@ -63,4 +64,5 @@
   <informationRegisters>InformationRegister.РасписаниеДоступностиПомещений</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьНомеров</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьУслуг</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоБроням</accumulationRegisters>
 </mdclass:Configuration>
