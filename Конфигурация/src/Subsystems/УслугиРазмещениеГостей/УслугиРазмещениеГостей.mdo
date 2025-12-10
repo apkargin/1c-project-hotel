@@ -13,4 +13,7 @@
   <content>AccumulationRegister.ВзаиморасчетыПоБроням</content>
   <content>Enum.СпособыОплаты</content>
   <content>Enum.ВидДокумента</content>
+  <content>Document.УслугиОтеля</content>
+  <content>Document.АрендаПомещений</content>
+  <content>InformationRegister.АрендаПомещений</content>
 </mdclass:Subsystem>
