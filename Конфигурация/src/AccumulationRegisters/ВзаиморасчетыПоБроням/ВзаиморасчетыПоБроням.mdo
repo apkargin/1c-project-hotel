@@ -15,6 +15,7 @@
   </synonym>
   <comment>Учет оплаты номеров</comment>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="562b0d78-1a46-45e4-80f9-c5f78fb9160d">

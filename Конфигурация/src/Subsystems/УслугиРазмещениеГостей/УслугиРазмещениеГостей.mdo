@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.ОтчетПоЗабронированнымНомерам</content>
+  <content>Document.УслугиОтеля</content>
 </mdclass:Subsystem>
