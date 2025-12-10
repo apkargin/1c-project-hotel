@@ -10,6 +10,7 @@
     <value>Отчет по забронированным номерам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоЗабронированнымНомерам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="2dce3009-66e7-46bc-91d0-3cb11060fc3b">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

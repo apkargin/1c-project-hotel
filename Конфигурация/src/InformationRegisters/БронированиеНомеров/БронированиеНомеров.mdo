@@ -55,6 +55,54 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="1240366f-426c-4cc0-8a47-d355d5fb7627">
+    <name>СтатусБрони</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус брони</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусБронирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71566570-b1ba-45ba-88e1-63f62d9a8511">
+    <name>ДатаОтменаБрони</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отмена брони</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d61c6a99-b9d6-4432-92b6-97446b8cd9fe">
+    <name>Гость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="ac5f549e-ad1b-49e5-bd1f-3031a85cb38d">
     <name>Номер</name>
     <synonym>

@@ -77,7 +77,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Фамилия</value>
+      <value>ФИО</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -107,42 +107,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="f65a4090-b44f-4473-b385-e08a323b4977">
-    <name>Имя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="acec05d6-8ace-4208-9b49-053662133ca7">
-    <name>Отчество</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отчество</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="21a0b044-396a-46eb-92a1-52b1c05d5349">
     <name>ДатаРождения</name>
     <synonym>
