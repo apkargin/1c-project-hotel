@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2bbf86a-2633-4146-a9f1-330220ec8b39">
+  <producedTypes>
+    <selectionType typeId="7cd7784d-18b0-43ee-942d-de5e64a56285" valueTypeId="4215b350-2306-489c-bb09-72da990907fe"/>
+    <listType typeId="86485b12-9bf4-4117-ae49-bd4b3dc88538" valueTypeId="b16b7858-ce45-4eda-b7a2-33d1dbfede78"/>
+    <managerType typeId="cd6d4986-7743-4c65-b47c-ac07173f75c6" valueTypeId="7f8cf2b6-c1da-4cc5-b4d2-b5e9686478c3"/>
+    <recordSetType typeId="8491f0a4-447a-4b51-8b7f-1d5381a57afc" valueTypeId="0e28a9f4-90da-4979-bc95-4b5e48ab04d4"/>
+    <recordKeyType typeId="3606de2d-7273-4e91-902f-7324c558c4b7" valueTypeId="f1eacf94-a5cd-4fdd-bf05-f4ec2ee21e82"/>
+    <recordType typeId="92d155f0-8d90-4bb3-a60e-89b2c4b201bb" valueTypeId="128146d3-6d8c-4ba7-8df3-9b8e9b7cda1b"/>
+    <recordManagerType typeId="30dabd5e-85d2-47a3-a7cf-e3b9084d0725" valueTypeId="067eff77-cbff-4f82-8a03-18774cad1199"/>
+  </producedTypes>
+  <name>АрендаПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда помещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="707d8921-989c-4c00-ae8c-1403b2bed9f0">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="482a01ef-e0c9-4dab-87f1-04d39091fec4">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0132aa5e-7908-4e1d-bcc8-cd32d8f9deb8">
+    <name>Гость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e530bdf9-03fa-4550-aa86-030304ccaf2e">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПомещениеОтеля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="74edc901-b493-466b-9802-2031e3d095c2">
+    <name>ДатаАренды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата аренды</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
