@@ -68,16 +68,16 @@
 						<dcsset:field>Гость</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДатаКонца</dcsset:field>
+						<dcsset:field>Номер</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>ДатаНачала</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ДатаОтменаБрони</dcsset:field>
+						<dcsset:field>ДатаКонца</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>Номер</dcsset:field>
+						<dcsset:field>ДатаОтменаБрони</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 			</dcsset:item>
