@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6a59080-ab5d-4c5c-83e4-59f5a0a325c2">
+  <producedTypes>
+    <objectType typeId="8d709b42-af30-41a3-8106-8b4f7639497a" valueTypeId="f71c47f1-aaca-4331-9d66-f6bb9cbbe0dd"/>
+    <refType typeId="79a78d1b-67a5-4a57-b4d6-3e74b5459655" valueTypeId="9dcb5e00-a798-48ad-83d7-cc3dd8f8fd01"/>
+    <selectionType typeId="4194d192-b3bf-4dd9-9237-e8fb3f0daeea" valueTypeId="789410d0-e4ed-4968-aec4-81a440ab5ffe"/>
+    <listType typeId="b3576e7c-b6bf-48a9-91c0-74c4e0ebe9e3" valueTypeId="9d7ed676-0d25-4e63-baef-70c1c69ff7b7"/>
+    <managerType typeId="1a8f49f4-f626-49e9-af32-2ad8b2eb8e6a" valueTypeId="170227f7-6af0-41bc-847b-7b7da67f6b21"/>
+  </producedTypes>
+  <name>УслугиОтеля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги отеля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УслугиОтеля.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УслугиОтеля.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыПоБроням</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d1082460-37dc-4c0b-9e90-668e0bf4b5a9">
+    <name>Гость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гость</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Гости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fa499873-451d-4253-8e9d-f9a4a27c0521">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="705300eb-d141-44ee-85d0-f7c3c3f3a191">
+    <producedTypes>
+      <objectType typeId="ad1d57da-3de7-4064-9941-7740d588df99" valueTypeId="755ea7bd-d172-4083-b8c6-6cb573e747dd"/>
+      <rowType typeId="49cb035e-523e-48f8-8456-64e7e085ebf3" valueTypeId="e923d763-6e15-4fa2-85c5-053f04cbd8f2"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+    <attributes uuid="cd505709-a810-4b49-a3f9-731866a842b8">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Услуги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c752b52-2383-48fa-8af5-3eb4da0b3207">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4f0bce60-dfab-41e8-b999-9118e5b4c3e7">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a224762d-c56f-4f10-89ee-2ae2ec3c2cc2">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64af4d7e-50c5-4074-acdb-fba489ed623d">
+      <name>Бронь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Бронь</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.БронированиеНомера</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
