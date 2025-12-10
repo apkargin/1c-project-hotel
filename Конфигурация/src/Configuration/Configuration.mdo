@@ -53,13 +53,15 @@
   <catalogs>Catalog.ПомещениеОтеля</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.АрендаПомещений</documents>
   <documents>Document.БронированиеНомера</documents>
   <documents>Document.ОплатаПроживания</documents>
-  <enums>Enum.СпособыОплаты</enums>
   <documents>Document.ОтменаБрони</documents>
+  <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.ТипНомера</enums>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
+  <informationRegisters>InformationRegister.АрендаПомещений</informationRegisters>
   <informationRegisters>InformationRegister.БронированиеНомеров</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеДоступностиПомещений</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьНомеров</informationRegisters>
