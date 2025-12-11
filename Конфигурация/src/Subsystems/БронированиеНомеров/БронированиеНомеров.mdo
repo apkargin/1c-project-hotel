@@ -24,4 +24,5 @@
   <content>CommonModule.ОбщиеОбработки</content>
   <content>Constant.КомиссияБанка</content>
   <content>Report.ДоходыИРасходы</content>
+  <content>Document.СезонныеАкции</content>
 </mdclass:Subsystem>
