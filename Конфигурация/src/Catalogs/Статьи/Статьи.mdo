@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c730af74-c3c1-4621-9af2-0d647683cd0f">
+  <producedTypes>
+    <objectType typeId="169d06fe-78d5-4b83-bd79-dea79f53638f" valueTypeId="e5e55f43-72a9-4c08-98ea-4272afbc779d"/>
+    <refType typeId="8734ed7d-9f66-4c4d-8941-aecf6984108a" valueTypeId="b499d3ef-3173-4a38-ae93-ec1840d3f995"/>
+    <selectionType typeId="5457d0f9-4119-4771-b7e3-ac885228d3db" valueTypeId="dc93f76d-c37a-4956-a37d-5f36cf832ffd"/>
+    <listType typeId="e3c9e32c-1ec0-4b1d-bf0c-1b982ed78b13" valueTypeId="c02ecf2d-8913-4c19-975e-02e67c3ab3e3"/>
+    <managerType typeId="9204ddea-c8ba-4bc8-8fd7-f6c429835f8b" valueTypeId="d0dd43e2-46cb-4a50-9c68-67f2213a5f0d"/>
+  </producedTypes>
+  <name>Статьи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Статьи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Статьи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="98b5e61a-d266-456d-993e-62c73b848dee">
+      <name>РасходыНаОплатуТруда</name>
+      <description>Расходы на оплату труда</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e2a28124-b1bf-495b-840a-e62f719fa410">
+      <name>РасходыНаУслугиБанков</name>
+      <description>Расходы на услуги банков</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="967e55ee-fc40-4166-a0df-2caa39958283">
+      <name>ВыручкаОтПродажи</name>
+      <description>Выручка от продажи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1966df68-d3d7-487c-90e7-9b16482f4bca">
+    <name>ВидСтатьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид статьи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСтатьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

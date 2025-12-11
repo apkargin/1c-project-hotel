@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90caf808-98c4-4bd5-ba5a-8eb6211aca14">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8c63b58-5193-4efc-9bf6-70fcc4298aed">
   <producedTypes>
-    <selectionType typeId="2ac509a5-0c67-40af-a6bf-d638fd505d27" valueTypeId="72d774e9-ff5d-4c79-a82c-fba03b184b17"/>
-    <listType typeId="ea0e9893-03a4-43c8-92fc-c9590c772209" valueTypeId="d96ba574-8093-42b1-a6ae-0f4e2dfc8e77"/>
-    <managerType typeId="bb9e9cc2-1258-40fb-b533-49a62214abfe" valueTypeId="35b7d88f-3516-4156-bfb7-ff2488846de4"/>
-    <recordSetType typeId="37ba7dbd-5a3e-48d3-9f68-92cd641dbbc4" valueTypeId="578ef059-a92d-4810-8444-9d1df76532e6"/>
-    <recordKeyType typeId="1073d824-6150-4185-825f-d1fcd5b9cc82" valueTypeId="72630dd9-98c9-48e9-81b3-e882a128bb92"/>
-    <recordType typeId="abb5a107-7743-4b3b-8ab4-94aea3349b1e" valueTypeId="e6f1a834-f15e-4eaf-8ff2-1a758f315dab"/>
+    <selectionType typeId="d6e4932b-a1bb-46a2-b48a-3a56f9fdb251" valueTypeId="45ecdc07-2b07-4f7e-8941-bf922f171573"/>
+    <listType typeId="2db340ab-0dc5-45b3-abac-fdfb6e02484d" valueTypeId="d3b59da6-26c8-4e50-8ed0-0db91895b65d"/>
+    <managerType typeId="a9609965-b046-4564-9ad1-5687ca59053e" valueTypeId="e6c37a3d-862f-4165-a61b-125e5406fa2d"/>
+    <recordSetType typeId="8c1028db-656f-48fe-829b-82b9d2f80168" valueTypeId="3c48a507-a0fe-4cb3-b772-3fa2a8a9c198"/>
+    <recordKeyType typeId="63e25bd4-addd-4c39-97db-3d4e9cc9868c" valueTypeId="99a3c8b0-8a9b-4acb-b950-60bf2bec9148"/>
+    <recordType typeId="c9bf6e54-d1be-43a4-b110-de1defb0599d" valueTypeId="9b778bdf-7334-4076-973f-587bb038a05e"/>
   </producedTypes>
-  <name>ВзаиморасчетыПоБроням</name>
+  <name>ЗадолженностьПоУслугам</name>
   <synonym>
     <key>ru</key>
-    <value>Взаиморасчеты по броням</value>
+    <value>Задолженность по услугам</value>
   </synonym>
-  <comment>Учет оплаты номеров</comment>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="562b0d78-1a46-45e4-80f9-c5f78fb9160d">
+  <resources uuid="aac90a93-11a7-4b81-838f-dc9832800716">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -27,31 +26,14 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
+        <precision>10</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="7634b28c-a3b1-443e-abac-fb795f4b942b">
-    <name>Бронь</name>
-    <synonym>
-      <key>ru</key>
-      <value>Бронь</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.БронированиеНомера</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="6ea69241-a670-4aef-8bcd-1dfd7b96885f">
+  <dimensions uuid="2985774c-97e4-4cbb-b3a1-b3796b75fa78">
     <name>Гость</name>
     <synonym>
       <key>ru</key>
@@ -66,7 +48,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="eff1a1a8-7e8f-4642-a355-b3b328755f0a">
+  <dimensions uuid="0f58caab-6af6-4b67-be77-5977a48dd5b5">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d1d47d1b-47e9-4e7a-a862-5c4527dc62fd">
     <name>Вид</name>
     <synonym>
       <key>ru</key>
@@ -77,7 +74,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

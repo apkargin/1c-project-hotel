@@ -158,25 +158,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="17245e69-9c1b-482c-86b8-faddf8a0d44a">
-    <name>СтатусБронирования</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус бронирования</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтатусБронирования</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.СтатусБронирования.EnumValue.ОжидаетОплаты</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="65ff002e-4d56-456f-8f90-e5c517ab7a67">
     <name>ФормаДокумента</name>
     <synonym>

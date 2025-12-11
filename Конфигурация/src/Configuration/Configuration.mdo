@@ -47,28 +47,36 @@
   <roles>Role.Управляющий</roles>
   <commonModules>CommonModule.ОбщиеОбработки</commonModules>
   <scheduledJobs>ScheduledJob.АвтоматическоеСнятиеБрони</scheduledJobs>
+  <constants>Constant.КомиссияБанка</constants>
   <catalogs>Catalog.Гости</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.НомернойФонд</catalogs>
   <catalogs>Catalog.ПомещениеОтеля</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Статьи</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.АрендаПомещений</documents>
   <documents>Document.БронированиеНомера</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.ОплатаПроживания</documents>
   <documents>Document.ОтменаБрони</documents>
   <documents>Document.РазмещениеГостей</documents>
-  <enums>Enum.ВидДокумента</enums>
   <documents>Document.УслугиОтеля</documents>
+  <enums>Enum.ВидДвижения</enums>
+  <enums>Enum.ВидДокумента</enums>
+  <enums>Enum.ВидыСтатьи</enums>
   <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.СтатусыРазмещения</enums>
   <enums>Enum.ТипНомера</enums>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
+  <reports>Report.ПродажаУслуг</reports>
   <informationRegisters>InformationRegister.АрендаПомещений</informationRegisters>
   <informationRegisters>InformationRegister.БронированиеНомеров</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеДоступностиПомещений</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьНомеров</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьУслуг</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоБроням</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДоходыРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностьПоУслугам</accumulationRegisters>
 </mdclass:Configuration>

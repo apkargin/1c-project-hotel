@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa5540c7-d722-443b-a424-cfd9cdf0d3b7">
+  <producedTypes>
+    <refType typeId="b92b0641-5090-4f8f-8b16-19a8fd3823ab" valueTypeId="ec3ba979-cf90-488d-a271-a92988d877ae"/>
+    <listType typeId="5a5d0408-22fe-417e-94d3-952e7e8a58a7" valueTypeId="36d1aa6a-6a85-4cd7-a7ee-0cc4a63aa0a4"/>
+    <managerType typeId="b1648143-9410-4336-80f0-c63977db0839" valueTypeId="800e30d7-70be-4bd2-948c-baa9c749398d"/>
+  </producedTypes>
+  <name>ВидыСтатьи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды статьи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6fecd249-9e7d-46f9-b7dd-0b57f5df8363">
+    <name>Доход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58d4697b-01bf-4d55-959a-09b649a3cf1a">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

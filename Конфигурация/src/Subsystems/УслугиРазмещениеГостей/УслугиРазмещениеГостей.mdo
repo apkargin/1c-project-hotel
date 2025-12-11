@@ -16,4 +16,8 @@
   <content>Document.УслугиОтеля</content>
   <content>Document.АрендаПомещений</content>
   <content>InformationRegister.АрендаПомещений</content>
+  <content>Report.ПродажаУслуг</content>
+  <content>Catalog.Статьи</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Constant.КомиссияБанка</content>
 </mdclass:Subsystem>
