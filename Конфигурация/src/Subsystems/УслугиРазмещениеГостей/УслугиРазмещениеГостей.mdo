@@ -16,4 +16,5 @@
   <content>Document.УслугиОтеля</content>
   <content>Document.АрендаПомещений</content>
   <content>InformationRegister.АрендаПомещений</content>
+  <content>Report.ПродажаУслуг</content>
 </mdclass:Subsystem>

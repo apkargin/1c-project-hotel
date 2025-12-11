@@ -66,10 +66,12 @@
   <enums>Enum.СтатусыРазмещения</enums>
   <enums>Enum.ТипНомера</enums>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
+  <reports>Report.ПродажаУслуг</reports>
   <informationRegisters>InformationRegister.АрендаПомещений</informationRegisters>
   <informationRegisters>InformationRegister.БронированиеНомеров</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеДоступностиПомещений</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьНомеров</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостьУслуг</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоБроням</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностьПоУслугам</accumulationRegisters>
 </mdclass:Configuration>
