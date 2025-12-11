@@ -22,4 +22,5 @@
   <content>Report.ОтчетПоЗабронированнымНомерам</content>
   <content>ScheduledJob.АвтоматическоеСнятиеБрони</content>
   <content>CommonModule.ОбщиеОбработки</content>
+  <content>Document.СезонныеАкции</content>
 </mdclass:Subsystem>

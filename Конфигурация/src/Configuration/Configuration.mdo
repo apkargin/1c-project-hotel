@@ -61,6 +61,7 @@
   <documents>Document.ОплатаПроживания</documents>
   <documents>Document.ОтменаБрони</documents>
   <documents>Document.РазмещениеГостей</documents>
+  <documents>Document.СезонныеАкции</documents>
   <documents>Document.УслугиОтеля</documents>
   <enums>Enum.ВидДвижения</enums>
   <enums>Enum.ВидДокумента</enums>
@@ -69,6 +70,7 @@
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.СтатусыРазмещения</enums>
   <enums>Enum.ТипНомера</enums>
+  <enums>Enum.ТипСкидки</enums>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
   <reports>Report.ПродажаУслуг</reports>
   <informationRegisters>InformationRegister.АрендаПомещений</informationRegisters>
