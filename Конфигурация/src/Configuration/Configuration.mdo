@@ -70,7 +70,6 @@
   <enums>Enum.СтатусБронирования</enums>
   <enums>Enum.СтатусыРазмещения</enums>
   <enums>Enum.ТипНомера</enums>
-  <reports>Report.ДоходыИРасходы</reports>
   <enums>Enum.ТипСкидки</enums>
   <reports>Report.ДоходыРасходы</reports>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>

@@ -27,20 +27,86 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Доход</dataPath>
+			<field>Доход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доход</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расход</dataPath>
+			<field>Расход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ДоходыРасходы.ТипСтатьи,
-	ДоходыРасходы.Сумма КАК Сумма,
-	ДоходыРасходы.Регистратор.Дата
+    ДоходыРасходы.ТипСтатьи,
+    ДоходыРасходы.Сумма КАК Сумма,
+    ВЫБОР
+        КОГДА ДоходыРасходы.ТипСтатьи.ВидСтатьи = ЗНАЧЕНИЕ(Перечисление.ВидыСтатьи.Доход)
+        ТОГДА ДоходыРасходы.Сумма
+        ИНАЧЕ 0
+    КОНЕЦ КАК Доход,
+    ВЫБОР
+        КОГДА ДоходыРасходы.ТипСтатьи.ВидСтатьи = ЗНАЧЕНИЕ(Перечисление.ВидыСтатьи.Расход)
+        ТОГДА ДоходыРасходы.Сумма
+        ИНАЧЕ 0
+    КОНЕЦ КАК Расход,
+    ДоходыРасходы.Регистратор.Дата
 ИЗ
-	РегистрНакопления.ДоходыРасходы КАК ДоходыРасходы
+    РегистрНакопления.ДоходыРасходы КАК ДоходыРасходы
 ГДЕ
-	ДоходыРасходы.Регистратор.Дата &gt;= &amp;НачалоПериода
-	И ДоходыРасходы.Регистратор.Дата &lt;= &amp;КонецПериода</query>
+    ДоходыРасходы.Регистратор.Дата &gt;= &amp;НачалоПериода
+    И ДоходыРасходы.Регистратор.Дата &lt;= &amp;КонецПериода</query>
 	</dataSet>
+	<calculatedField>
+		<dataPath>Прибыль</dataPath>
+		<expression>Доход - расход</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Прибыль</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Дата</dataPath>
+		<expression>Формат(РегистраторДата,"ДФ=ММММ") + " " + Строка(ГОД(РегистраторДата))</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата</v8:content>
+			</v8:item>
+		</title>
+		<orderExpression>
+			<dcscom:expression>РегистраторДата</dcscom:expression>
+			<dcscom:orderType>Asc</dcscom:orderType>
+			<dcscom:autoOrder>false</dcscom:autoOrder>
+		</orderExpression>
+	</calculatedField>
 	<totalField>
 		<dataPath>Сумма</dataPath>
 		<expression>Сумма(Сумма)</expression>
+		<group>Доход</group>
+		<group>Прибыль</group>
+		<group>Расход</group>
+		<group>РегистраторДата</group>
+		<group>Сумма</group>
+		<group>ТипСтатьи</group>
+	</totalField>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Доход) - Сумма(Расход)</expression>
+		<group>ОбщийИтог</group>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -94,13 +160,11 @@
 				<dcsset:column>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>РегистраторДата.ДатыНачала.НачалоМесяца</dcsset:field>
+							<dcsset:field>Дата</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						</dcsset:item>
 					</dcsset:groupItems>
-					<dcsset:filter>
-					</dcsset:filter>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
@@ -129,6 +193,8 @@
 						</dcsset:item>
 					</dcsset:selection>
 				</dcsset:row>
+				<dcsset:selection>
+				</dcsset:selection>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
