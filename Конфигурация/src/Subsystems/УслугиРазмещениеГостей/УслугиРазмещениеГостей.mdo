@@ -20,4 +20,5 @@
   <content>Catalog.Статьи</content>
   <content>Document.НачислениеЗарплаты</content>
   <content>Constant.КомиссияБанка</content>
+  <content>Report.ДоходыИРасходы</content>
 </mdclass:Subsystem>
