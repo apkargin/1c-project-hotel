@@ -20,6 +20,4 @@
   <content>Document.ОплатаПроживания</content>
   <content>Document.ОтменаБрони</content>
   <content>Report.ОтчетПоЗабронированнымНомерам</content>
-  <content>ScheduledJob.АвтоматическоеСнятиеБрони</content>
-  <content>CommonModule.ОбщиеОбработки</content>
 </mdclass:Subsystem>
