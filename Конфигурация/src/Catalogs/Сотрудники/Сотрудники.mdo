@@ -134,7 +134,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>16</length>
       </stringQualifiers>
     </type>
     <mask>+9(999) 999 9999</mask>
