@@ -3,7 +3,6 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>13</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -41,20 +40,67 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Имя</name>
-    <id>1</id>
+    <name>Фамилия</name>
+    <id>28</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Фамилия</segments>
+    </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ФамилияПриИзменении</name>
+    </handlers>
+    <extendedTooltip>
+      <name>ФамилияРасширеннаяПодсказка</name>
+      <id>30</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ФамилияКонтекстноеМеню</name>
+      <id>29</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Имя</name>
+    <id>31</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Имя</segments>
+    </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ИмяПриИзменении</name>
     </handlers>
     <extendedTooltip>
       <name>ИмяРасширеннаяПодсказка</name>
-      <id>3</id>
+      <id>33</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -64,29 +110,41 @@
     </extendedTooltip>
     <contextMenu>
       <name>ИмяКонтекстноеМеню</name>
-      <id>2</id>
+      <id>32</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <editMode>EnterOnInput</editMode>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Отчество</name>
-    <id>7</id>
+    <id>34</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Отчество</segments>
+    </dataPath>
     <handlers>
       <event>OnChange</event>
       <name>ОтчествоПриИзменении</name>
     </handlers>
     <extendedTooltip>
       <name>ОтчествоРасширеннаяПодсказка</name>
-      <id>9</id>
+      <id>36</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -96,13 +154,22 @@
     </extendedTooltip>
     <contextMenu>
       <name>ОтчествоКонтекстноеМеню</name>
-      <id>8</id>
+      <id>35</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <editMode>EnterOnInput</editMode>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Телефон</name>
