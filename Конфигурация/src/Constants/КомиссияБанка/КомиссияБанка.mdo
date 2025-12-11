@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e7b895-8fd6-4596-9e5e-0bd86f6fc4a5">
+  <producedTypes>
+    <managerType typeId="e5590fde-6a55-4512-8916-94940b1280a7" valueTypeId="1a0a291e-a79b-46d4-aecd-35af42fd4983"/>
+    <valueManagerType typeId="f45fc1d3-a57a-459c-9235-defd92d48f27" valueTypeId="59ad4ae6-480f-4f55-87cf-0c042cb0f086"/>
+    <valueKeyType typeId="58d8f8e9-da7e-45c4-bf55-80bb6034df03" valueTypeId="4c91d1aa-25a9-4236-aa93-ad8e75dcdc17"/>
+  </producedTypes>
+  <name>КомиссияБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссия банка</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

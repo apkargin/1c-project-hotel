@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.УслугиОтеля.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ВзаиморасчетыПоБроням</registerRecords>
   <registerRecords>AccumulationRegister.ЗадолженностьПоУслугам</registerRecords>
+  <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d1082460-37dc-4c0b-9e90-668e0bf4b5a9">
