@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19d0f93b-8356-4bb0-b0f9-bfecd9c99830">
+  <producedTypes>
+    <refType typeId="54ff0985-da7d-43a4-b356-e44f9c01a577" valueTypeId="8e1c1605-bbf1-45cb-b5a5-a1f1457c5cca"/>
+    <listType typeId="d17b872c-6dbb-474c-8c42-8dfc4fc2e6e5" valueTypeId="f6fdd124-f40c-49e9-93e7-813fbe4bbe03"/>
+    <managerType typeId="86c03c9b-bc74-4a6e-b58a-5c2344294e98" valueTypeId="49eb345c-fb6d-4d3d-a191-7c4d40437d02"/>
+  </producedTypes>
+  <name>ТипСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип скидки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6eb08222-a3b5-424d-8a5e-c1352b4c94e4">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a447c206-3bad-4036-841a-983458e432cb">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
