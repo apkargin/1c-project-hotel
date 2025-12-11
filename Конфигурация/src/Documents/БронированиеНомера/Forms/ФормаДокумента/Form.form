@@ -552,6 +552,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Услуги.Услуга</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>УслугиУслугаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>УслугиУслугаРасширеннаяПодсказка</name>
         <id>46</id>
@@ -592,6 +596,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Услуги.Количество</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>УслугиКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>УслугиКоличествоРасширеннаяПодсказка</name>
         <id>49</id>
@@ -632,6 +640,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Услуги.Цена</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>УслугиЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>УслугиЦенаРасширеннаяПодсказка</name>
         <id>52</id>
