@@ -229,4 +229,23 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="49da3674-2ae7-4a89-b285-9ef40aa924ae">
+    <name>ФормаРегистрацииГостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма регистрации гостей</value>
+    </synonym>
+  </templates>
+  <commands uuid="9e75dabc-74b6-487a-91e1-0c32190cc712">
+    <name>ФормаРегистрацииГостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма регистрации гостей</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.РазмещениеГостей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
