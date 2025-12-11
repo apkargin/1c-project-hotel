@@ -27,6 +27,7 @@
   <registerRecords>AccumulationRegister.ВзаиморасчетыПоБроням</registerRecords>
   <registerRecords>InformationRegister.БронированиеНомеров</registerRecords>
   <registerRecords>AccumulationRegister.ЗадолженностьПоУслугам</registerRecords>
+  <registerRecords>AccumulationRegister.ДоходыРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="61a40326-2b15-4e01-96d0-ea96d6b1c178">
