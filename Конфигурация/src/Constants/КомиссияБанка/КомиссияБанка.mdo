@@ -13,7 +13,7 @@
   <type>
     <types>Number</types>
     <numberQualifiers>
-      <precision>3</precision>
+      <precision>6</precision>
       <scale>3</scale>
     </numberQualifiers>
   </type>
