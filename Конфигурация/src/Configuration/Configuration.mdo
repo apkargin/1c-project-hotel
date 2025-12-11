@@ -71,6 +71,7 @@
   <enums>Enum.СтатусыРазмещения</enums>
   <enums>Enum.ТипНомера</enums>
   <enums>Enum.ТипСкидки</enums>
+  <reports>Report.ДоходыРасходы</reports>
   <reports>Report.ОтчетПоЗабронированнымНомерам</reports>
   <reports>Report.ПродажаУслуг</reports>
   <informationRegisters>InformationRegister.АрендаПомещений</informationRegisters>

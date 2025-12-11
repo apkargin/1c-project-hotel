@@ -21,4 +21,6 @@
   <content>Document.НачислениеЗарплаты</content>
   <content>Constant.КомиссияБанка</content>
   <content>Document.СезонныеАкции</content>
+  <content>Report.ДоходыРасходы</content>
+  <content>AccumulationRegister.ДоходыРасходы</content>
 </mdclass:Subsystem>
